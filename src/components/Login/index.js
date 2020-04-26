@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Logo from '../Logo';
 
@@ -10,23 +10,23 @@ import './login-style.css';
 //importar components
 const Login = () => {
   return (
-    <div className="container">
+    <div className="container-login-teste">
       <div class="MuiToolbar-root"></div>
       <Logo></Logo>
-        <div class="logo-bq"></div>
+      <div class="logo-bq"></div>
 
       <div className="container-login">
         <div className="form-login">
           <form>
             <div className="input-group">
               <label></label>
-              <input type="email" placeholder="E-mail"/>
+              <input type="email" placeholder="E-mail" />
             </div>
             <div className="input-group">
               <label></label>
-              <input type="password" placeholder="Senha"/>
+              <input type="password" placeholder="Senha" />
             </div>
-            
+
             <div className="btn-group">
               <button className="btn-logar">
                 <Link rel="../components/index" className="btn-link" to="">

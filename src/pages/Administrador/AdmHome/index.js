@@ -3,12 +3,8 @@ import React from 'react';
 import './AdmHome-style.css';
 
 const AdmHome = () => {
-
   return (
-
-
-
-    <div className="container">
+    <div className="general-container">
       <div>
         <div class="MuiToolbar-root"></div>
 
